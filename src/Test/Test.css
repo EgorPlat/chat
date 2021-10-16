@@ -1,0 +1,58 @@
+.chat {
+    max-width: 420px;
+    min-height: 400px;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 25px;
+}
+.messages {
+    min-width: 100%;
+    height: 350px;
+    overflow-y: scroll;
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+}
+.flex-input {
+    width: 85%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+}
+.flex {
+    margin-left: 2.5%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+.flex-image:hover {
+    cursor: pointer;
+}
+.flex-image>img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.message {
+    max-width: 95%;
+    margin-left: 5%;
+    min-height: 30px;
+    margin-top: 10px;
+    background-color: rgba(206, 206, 206, 0.721);
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+*::-webkit-scrollbar {
+    width: 12px;               /* ширина scrollbar */
+}
+*::-webkit-scrollbar-track {
+    background: white;        /* цвет дорожки */
+}
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(79, 79, 133);    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+}

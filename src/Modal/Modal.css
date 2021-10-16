@@ -1,0 +1,34 @@
+.background {
+    width: 100%;
+    height: 100%;
+}
+.modals {
+    max-width: 100%;
+    min-height: 200px;
+    background-color: rgb(214, 214, 214);
+    color: black;
+    border-radius: 25px;
+    padding: 15px;
+}
+.modals-smiles {
+    min-width: 90%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 150px;
+}
+.modals-smiles-smile {
+    margin-left: 5px;
+}
+.modals-smiles-smile:hover {
+    cursor: pointer;
+}
+.modals-button {
+    border-radius: 10px;
+    border: 1px solid grey;
+    max-width: 200px;
+    background-color: rgb(9, 162, 9);
+    color: white;
+}
+.modals-title {
+    float: left;
+}
